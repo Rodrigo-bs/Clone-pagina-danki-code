@@ -1,0 +1,326 @@
+/* header */
+header{
+    background: var(--one--);
+}
+
+header > .container{
+    padding: 32px 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* menu */
+
+.menu-desk li{
+    display: inline-block;
+}
+
+.menu-desk a{
+    padding: 16px;
+
+    color: var(--three--);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.menu-desk a:hover{
+    color: var(--two--);
+}
+
+.conta{
+    position: relative;
+}
+
+.conta li{
+    margin: 0 5px;
+    display: inline-block; 
+}
+
+.conta a{
+    padding: 6px 32px;
+
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 700;
+
+    border-radius: 50px;
+}
+
+.conta .btn-entrar a{
+    background: var(--three--);
+    color: var(--one--);
+
+    cursor: pointer;
+
+}
+
+.conta .btn-matri a{
+    color: var(--three--);
+    border: 1px solid var(--three--);
+}
+
+#triangulo-para-cima{
+    width: 0; 
+    height: 0; 
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid var(--two--);
+
+    position: absolute;
+    top: -15px;
+    left: 40%;
+}
+
+.ativar-menu{
+    display: block !important;
+    opacity: 1 !important;
+}
+
+.entrar{
+    background: var(--two--);
+
+    position: absolute;
+    top: 35px;
+    right: 80px;
+
+    transition: ease .300s;
+
+    display: none;
+}
+
+.entrar .input-box{
+    margin: 10px 15px;
+
+    display: flex;
+}
+
+.entrar .input-box label{
+    width: 40px;
+    height: 40px;
+
+    border-radius: 10px 0 0 10px;
+
+    display: block;
+}
+
+.email label{
+    background: #ccc url('http://127.0.0.1:5500/DankiCode/public/img/cadrastar/user-form.png') no-repeat center;
+}
+
+.senha label{
+    background: #ccc url('http://127.0.0.1:5500/DankiCode/public/img/cadrastar/pass-form.png') no-repeat center;
+}
+
+.entrar .input-box input[type=text]{
+    padding: 11px;
+    font-size: 14px;
+
+    border: none;
+    display: block;
+}
+
+.email input[type=text]{
+    max-width: 100%;
+    border-radius: 0 5px 5px 0;
+}
+
+.senha input[type=text]{
+    max-width: 150px;
+}
+
+.senha a{
+    padding: 0 2px;
+    background: var(--five--) url('http://127.0.0.1:5500/DankiCode/public/img/cadrastar/arrow-form.png') no-repeat center;
+
+    border-radius: 0 5px 5px 0;
+    border: none;
+
+    flex: 1;
+}
+
+.entrar span{
+    margin: 0 0 10px 5px;
+    display: block;
+}
+
+.entrar span a{
+    padding: 10px;
+    color: var(--three--);
+    text-decoration: underline;
+}
+
+/* .menu-mobile */
+
+.bar-menu{
+    display: none;
+}
+
+.menu-mobile nav{
+    display: none;
+}
+
+.bar-menu i{
+    font-size: 4.8rem;
+    color: var(--three--);       
+
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+
+.menu-mobile > nav{
+    max-width: 100%;
+    padding: 15px; 
+    text-align: center;
+
+    background: var(--three--);
+}
+
+.menu-mobile li{
+    padding: 10px 0;
+    list-style: none;
+}
+
+.menu-mobile a{
+    font-size: 1.9rem;
+    font-weight: 400;
+    color: var(--two--);
+
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+.menu-mobile a:hover{
+    text-decoration: underline;
+}
+
+@media (max-width: 1000px){
+    header > .container{
+        padding: 32px 50px;
+        justify-content: space-between;
+    }
+
+    div.conta{
+        display: none !important;
+    }
+
+    .menu-desk{
+        display: none;
+    }
+
+    .bar-menu{
+        display: block;
+    }
+}
+
+@media (min-width: 1000px){
+    div.menu-mobile nav{
+        display: none !important;
+    }
+}
+
+/* footer */
+
+.sobre{
+    background: var(--one--);
+    color: var(--three--);
+}
+
+.sobre > .container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.sobre-info,
+.contato{
+    font-family: 'Lato', sans-serif;
+
+    padding: 20px;
+    flex: 1 0 400px;
+}
+
+.sobre-info h2{
+    font-size: 2.6rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+.sobre-info p{
+    margin: 15px 0;
+
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.3;
+}
+
+.sobre-info .redes-sociais a{
+    margin-right: 10px;
+
+    color: var(--three--);
+    font-size: 4rem;
+}
+
+.sobre-info .app{
+    margin: 15px 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contato{
+    margin: 50px 0;
+    text-align: center;
+}
+
+.contato h2{
+    font-size: 2.6rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+.contato p{
+    margin: 5px;
+
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.3;
+}
+
+footer.sub-footer{
+    padding: 20px;
+    background: var(--eight--);
+}
+
+footer.sub-footer img{
+    max-width: 150px;
+    margin: 0 auto;
+}
+
+/* Js-class */
+
+.js [data-animation="scroll"]{
+    opacity: 0;
+    transition: .2s;
+    transform: translate3d(-30px, 0, 0);
+}
+
+.js [data-animation="scroll"].ativo{
+    opacity: 1;
+    transition: .2s;
+    transform: translate3d(0, 0, 0);
+}
+
+.js [data-menu="mobile"] nav.ativo{
+    display: block;
+}
+
+.js [data-menu="conta"].ativo .entrar{
+    display: block;
+}

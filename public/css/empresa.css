@@ -1,0 +1,181 @@
+.sobre-section{
+    width: 100%;
+    background: url('http://127.0.0.1:5500/DankiCode/public/img/sobre-section.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.sobre-section h2{
+    padding: 40px 0;
+    font-size: 2.4rem;
+    color: var(--three--);
+    text-align: center;
+}
+
+.visao-empresa{
+    margin: 60px;
+}
+
+.visao-empresa > .container{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.visao-empresa .container div{
+    padding: 10px 30px 25px 30px;
+    margin: 20px 10px;
+    border: 1px solid #d8d8d8;
+    flex: 1;
+}
+
+@media (max-width: 900px){
+    .visao-empresa > .container{
+        flex-direction: column;    
+    }
+}
+
+.visao-empresa h2{
+    margin: 20px 0 10px 0;
+    font-size: 2.1rem;
+    color: var(--one--);
+}
+
+.visao-empresa p{
+    font-size: 1.6rem;
+    color: #585858;
+}
+
+.valores > .container{
+    border: 1px solid #d8d8d8;
+    padding: 20px 0;
+}
+
+.valores h2{
+    color: var(--one--);
+    margin: 12px 0;
+    text-align: center;
+    font-size: 2.4rem;
+}
+
+.valores ul{
+    text-align: center;
+}
+
+.valores li{
+    display: inline-block;
+    font-size: 1.8rem;
+    color: #585858;
+}
+
+@media (max-width: 900px){
+    .valores li{
+        display: block;
+        margin: 20px 0;
+        list-style: circle !important;
+    }
+
+    .valores li:before{
+        content: '';
+        margin: 4px 8px !important;
+        width: 5px;
+        height: 5px;
+        display: inline-block;
+        border-radius: 50%;
+        background: currentColor;
+    }
+}
+
+.valores li + li:before{
+    content: '';
+    margin: 4px 16px;
+    width: 5px;
+    height: 5px;
+    display: inline-block;
+    border-radius: 50%;
+    background: currentColor;
+}
+
+.equipe{
+    margin: 60px 0;
+}
+
+.equipe > .container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.equipe h2{
+    font-size: 2.6rem;
+    color: var(--one--);
+    text-align: center;
+    margin: 30px 0;
+}
+
+.pessoa-single{
+    flex: 1 0 200px;
+    max-width: 244px;
+    margin: 60px 20px;
+    border: 1px solid #DDD;
+    padding-bottom: 20px;
+} 
+
+.pessoa-single .content{
+    padding: 12px;
+    color: #585858;
+}
+
+.pessoa-single h1{
+    font-size: 1.9rem;
+    margin: 8px 0;
+}
+
+.pessoa-single ul{
+    margin-top: 10px;
+}
+
+.pessoa-single ul li{
+    font-size: 1.4rem;
+    margin: 3px 0 3px 15px;
+}
+
+.conquistas{
+    color: var(--one--);
+    text-align: center;
+}
+
+.conquistas h2{
+    font-size: 2.4rem;
+}
+
+.conquistas ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 900px){
+    .conquistas ul{
+        flex-direction: column;
+    }
+
+    .conquistas li{
+        margin: 40px 0;
+    }
+
+}
+
+.conquistas li{
+    font-size: 6rem;
+    margin: 50px 35px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.conquistas li::after{
+    content: 'Descrição Teste'; 
+    font-size: 1.6rem;
+    color: #585858;
+}

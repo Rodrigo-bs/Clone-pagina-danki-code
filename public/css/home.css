@@ -1,0 +1,333 @@
+/* banner */
+
+.banner{
+    width: 100%;
+    background: url('http://127.0.0.1:5500/DankiCode/public/img/banner-home.png') no-repeat center;
+    background-size: cover;
+}
+
+.matriculise{
+    padding: 170px 0;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.banner p{
+    margin: 20px 0;
+    color: var(--three--);
+    font-size: 2.3rem;
+}
+
+.banner h1{
+    font-size: 11rem;
+    font-weight: 500;
+    color: var(--three--);
+
+    padding: 20px 0;
+}
+
+.banner h1::after{
+    content: '|';
+    animation: piscar .888s infinite;
+}
+
+.btn-banner{
+    padding: 20px 0;
+}
+
+.btn-banner a{
+    padding: 10px 15px;
+    
+    font-size: 1.8rem;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: var(--six--);
+    border: 2px solid currentColor;
+    border-radius: 50px;
+}
+
+/* fedback */
+
+.aba-fedback{
+    margin: 40px 0;
+} 
+
+.aba-fedback > .container{
+    max-width: 850px;
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.fed-single{
+    flex-basis: 150px;
+    margin: 40px 10px;
+}
+
+.fed-single .fed-img{
+    width: 140px;
+    height: 140px;
+
+    background: var(--seven--) url('http://127.0.0.1:5500/DankiCode/public/img/icon_certified.png') no-repeat center;  
+    border-radius: 50%;
+}
+
+.fed-single p{
+    width: 140px;
+
+    font-weight: 300;
+    font-size: 2.3rem;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+
+    color: var(--one--);
+}
+
+/* barra-cursos */
+
+.barra-cursos{
+    padding: 46px 0;
+
+    background: var(--eight--);
+    color: var(--three--);
+
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.barra-cursos h2{
+    padding-bottom: 15px;
+
+    font-size: 2.6rem; 
+    font-weight: 700;
+}
+
+.barra-cursos p{
+    font-size: 2.3rem;
+    font-weight: 300;
+}
+
+/* Cursos */
+
+.cursos > .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 500px){
+    .cursos > .container{
+        justify-content: center;
+    }
+
+    .curso-single{
+        margin: 50px auto;
+    }
+}
+
+.curso-single{
+    max-width: 366px;
+    margin: 50px 0;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.curso-single h1{
+    margin: 10px 0;
+    padding: 0 80px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 2.3rem;
+    color: #646464;
+}
+
+.curso-single p{
+    padding: 0 5px;
+    margin: 20px 0;
+    font-family: Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 1.6rem;
+    color: #000;
+}
+
+.estrelas{
+    margin: 20px 0;
+    padding: 0 5px;
+}
+
+.estrelas img{
+    display: inline-block;
+}
+
+.curso-single a{
+    max-width: 100%;
+    padding: 15px 0;
+    margin-top: 100px;
+
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 2rem;
+
+    background: var(--nine--);
+    color: var(--three--);
+
+    display: block;
+}
+
+/* Cursos-js */
+
+.estrelas-5{ 
+    order: 1;
+}
+
+.estrelas-4{
+    order: 2;
+}
+
+.estrelas-3{
+    order: 3;
+}
+
+.estrelas-2{
+    order: 4;
+}
+
+.estrelas-1{
+    order: 5;
+}
+
+/* depoimentos */
+
+.depoimentos{
+    background: var(--two--);
+}
+
+.depoimentos > .container{
+    padding: 50px 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+
+@media (max-width: 1000px){
+    .depoimentos > .container{
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .depoimento-single{
+        margin: 20px 0;
+    }
+}
+
+.depoimento-single{
+    width: 303px;
+    padding: 20px;
+
+    border-radius: 10px;
+    background: var(--three--);
+}
+
+.depoimento-single p,
+.depoimento-single h3{
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+
+    color: #646464;
+}
+
+.depoimento-single p{
+    font-style: italic;
+}
+
+.depoimento-single h3{
+    font-weight: 700;
+}
+
+/* area vip */
+
+.area-vip{
+    padding: 20px 0;
+    text-align: center;
+    background: var(--eight--);
+}
+
+.vip .input-box{
+    margin: 15px 0;
+}
+
+.vip .input-box label{
+    padding: 10px 0;
+    
+    font-size: 2.6rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: var(--three--);
+
+    display: block;
+}
+
+.vip .input-box input{
+    width: 600px;
+    padding: 10px;
+
+    box-sizing: 10px;
+
+    font-family: 'Lato', sans-serif;
+    font-size: 1.8rem;
+}
+
+@media (max-width: 700px){
+    .vip .input-box input{
+        width: 400px
+    }
+}
+
+.vip .input-box input[type=submit]{
+    text-transform: uppercase;
+    color: var(--three--);
+    font-weight: 700;
+
+    background: var(--five--);
+    border: none;
+}
+
+.vip .input-box input[type=submit]:hover{
+    background: var(--six--);
+}
+
+.vip div.button label{
+    display: none;
+}
+
+/* depoimentos videos */
+
+.depoimentos-videos > .container{
+    max-width: 1300px;
+    padding: 60px 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.video-single{
+    max-width: 400px;
+    margin: 10px 0;
+
+    flex: 1;
+}

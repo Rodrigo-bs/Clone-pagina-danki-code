@@ -1,0 +1,70 @@
+.area-trofeu{
+    padding: 40px 0;
+    color: var(--three--);
+    background: var(--eight--);
+    text-align: center;
+}
+
+.area-trofeu i{
+    font-size: 5rem;
+    margin: 15px 0;
+}
+
+.area-trofeu h1{
+    font-size: 2.4rem;
+}
+
+.area-trofeu span{
+    color: var(--five--);
+}
+
+/* certificado */
+.certificado{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.input-box{
+    min-height: 50px;
+}
+
+.certificado label{
+    display: block;
+    font-size: 2.1rem;
+    font-weight: 700;
+    margin: 10px 0;
+    color: var(--eleven--);
+}
+
+.certificado .input-box .user{
+    width: 10%;
+    height: 50px;
+    background: var(--ten--) url('http://127.0.0.1:5500/DankiCode/public/img/user.svg') no-repeat center center;
+    background-size: 25px 25px;
+    border-radius: 10px 0 0 10px;
+    display: block;
+    float: left;
+}
+
+.certificado .input-box input{
+    width: 90%;
+    height: 50px;
+    font-size: 1.9rem; 
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 0 10px 10px 0;
+}
+
+.certificado button{
+    display: block;
+    margin-top: 30px;
+    padding: 20px 35px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--three--);
+    background: var(--five--);
+    border: 1px solid #ccc; 
+    border-radius: 50px;
+    cursor: pointer;
+}

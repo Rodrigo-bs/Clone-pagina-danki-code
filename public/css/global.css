@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: 'Lato', Helvetica;
+}
+
+body,
+html,
+:root{
+    height: 100%;
+    background: var(--back--); 
+}
+
+a{
+    font-family: 'Lato', Helvetica;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+html{
+    --one--: #5E3EA1;
+    --two--: #A996C7;
+    --three--: #fff;
+    --four--: #893147;
+    --five--: #e7426b;
+    --six--: #E13E69;
+    --seven--: #DCD4E5;
+    --eight--: #4C3282;
+    --nine--: #665FB3;
+    --ten--: #D8D8D8;
+    --eleven--: #847586;
+
+    --back--: #fff;
+
+    --local--: 'http://127.0.0.1:5500/DankiCode/css';
+
+    font-size: 62.4%;
+}
+
+html.dark{
+    --one--: #18161b;
+    --seven--: #1a1927;
+    --eight--: #1b1820;
+    --nine--: #1b1820;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2%; 
+}
+
+.clear{clear: both;}
+
+@media (max-width: 600px){
+    :root{
+        font-size: 50%;
+    }
+}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>document.documentElement.className += ' js'</script>
+    <link rel="stylesheet" href="http://127.0.0.1:5500/DankiCode/public/css/header-footer.css">
+    <link rel="stylesheet" href="http://127.0.0.1:5500/DankiCode/public/css/animations.css">
+    <link rel="stylesheet" href="http://127.0.0.1:5500/DankiCode/public/css/global.css">
+
+    <style>
+        
+    </style>
+    <title>Danki.Code</title> 
+</head>
+<body>
+    <target page-view></target>
+    <header> 
+        <div class="container"> 
+            <div class="logo">
+                <a href="index.html"><img src="http://127.0.0.1:5500/DankiCode/public/img/danki_header.png" alt="Danki-code-logo" title="DankiCode"></a>
+            </div>
+
+            <div class="menu-desk">
+                <nav data-view="menu">
+                    <ul>
+                        <li><a href="home">Home</a></li>
+                        <li><a href="cursos">Cursos</a></li>
+                        <li><a href="empresa">A Empresa</a></li>
+                        <li><a href="certificados">Certificados</a></li>
+                        <li><a href="blog">Blog</a></li>
+                        <li><a href="forum">Forum</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="conta" data-menu="conta">
+                <nav>
+                    <ul>
+                        <li class="btn-entrar"><a>Entrar</a></li>
+                        <li class="btn-matri" data-view="menu"><a href="registrar">Matriculi-se Gratis</a></li>
+                    </ul>
+                </nav>
+
+                <div class="entrar surgir">  
+                    <div id="triangulo-para-cima"></div>
+
+                    <form>
+                        <div class="input-box email">
+                            <label for="email"></label>
+                            <input type="text" name="email" id="email" placeholder="Email">
+                        </div>
+
+                        <div class="clear"></div>
+
+                        <div class="input-box senha">
+                            <label for="senha"></label>
+                            <input type="text" name="" id="senha" placeholder="Senha">
+                            <a href="?entar"></a>
+                        </div>
+                    </form>
+
+                    <span><a href="#">Esqueci minha senha</a></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-mobile" data-menu="mobile">
+            <div class="bar-menu" data-menu="bar">
+                <i class="fas fa-bars"></i>
+            </div>
+            
+            <nav data-view="menu" class="down">
+                <ul>
+                    <li><a href="home">Home</a></li>
+                    <li><a href="cursos">Cursos</a></li>
+                    <li><a href="empresa">A Empresa</a></li>
+                    <li><a href="certificados">Certificados</a></li>
+                    <li><a href="blog">Blog</a></li>
+                    <li><a href="forum">Forum</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section data-view="section">
+
+    </section>
+
+    <footer class="sobre">
+        <div class="container">
+            <div class="sobre-info">
+                <h2>Sobre a Danki Code</h2>
+                <p>A Danki Code é uma empresa de desenvolvimento web e também atua na área de cursos online voltados também ao assunto. Sediada em Florianópolis, desenvolve soluções inovadoras para empresas e também forma profissionais capacitados e completos para a área de TI.</p>
+                
+                <p>Plataforma Desenvolvida com  por Danki Code.</p>
+                
+                <p>É proibida a reprodução ou distribuição do conteúdo publicado aqui.</p>
+
+                <div class="redes-sociais">
+                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                </div>
+
+                <div class="app">
+                    <a href="#"><img src="http://127.0.0.1:5500/DankiCode/public/img/googleplayicon.png" alt="googleplay" title="Baixe!!"></a>
+                    <a href="#"><img src="http://127.0.0.1:5500/DankiCode/public/img/googleplayicon.png" alt="googleplay" title="Baixe!!"></a>
+                </div>
+            </div>
+
+            <div class="contato">
+                <h2>Atendimento ao cliente</h2>
+                <p><strong>E-mail:</strong> atendimento@dankicode.com</p>
+                <p><strong>Telefone/WhatsApp:</strong> (48) 99807-5162</p>
+                <p>De segunda a domingo</p>
+            </div>
+        </div>
+    </footer>
+
+    <footer class="sub-footer">
+        <div class="container">
+            <a href="https://cursos.dankicode.com/home"><img src="http://127.0.0.1:5500/DankiCode/public/img/danki_logo.png" alt=""></a>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/755ff7a8df.js" crossorigin="anonymous"></script>
+    <script type="module">
+        import home from 'http://127.0.0.1:5500/DankiCode/public/js/home.js'
+
+        const target = document.querySelector('target')
+        const observerTarget = document.querySelector('[data-view="section"]')
+        const observer = new MutationObserver(activeScripts)
+        observer.observe(observerTarget, {childList: true})
+
+        function activeScripts(){
+            if(target.getAttribute('page-view') == 'home')
+                home()
+        }
+    </script>
+    <script type="module" src="http://127.0.0.1:5500/DankiCode/public/js/main.js"></script>
+</body>
+</html>

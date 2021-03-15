@@ -1,0 +1,56 @@
+[
+    {
+        "titulo": "Curso Desenvolvimento Web Completo",
+        "img": "http://127.0.0.1:5500/DankiCode/public/img/cursos/desenvolvimento_web_completo_curso.jpg",
+        "descricao": "Aprenda e domine absolutamente tudo sobre front-end e web design em apenas um curso! Tudo que você precisa para se tornar um(a) Desenvolvedor(a) Front-End. São mais de 600 aulas, 35 projetos práticos e 300 exercícios.",
+        "estrelas": 5
+    },
+    {
+        "titulo": "Curso Design de Games",
+        "img": "http://127.0.0.1:5500/DankiCode/public/img/cursos/design_games_curso.jpg",
+        "descricao": "Aprenda desenvolvimento web de alta performance com o curso mais completo do mercado! Aprenda e domine a criação de sistemas web e websites dinâmicos em mais de 500 aulas e 50 projetos práticos.",
+        "estrelas": 5
+    },
+    {
+        "titulo": "Curso Web Design Express",
+        "img": "http://127.0.0.1:5500/DankiCode/public/img/cursos/web_express_curso.png",
+        "descricao": "Este é um curso completo de Web Design. Perfeito para aqueles que querem aprender o web design de alta performance e criar seus próprios websites. Aprenda HTML5, CSS3, SEO, Photoshop, UI/UX e muito mais!",
+        "estrelas": 4
+    },
+    {
+        "titulo": "Curso PHP Jedai",
+        "img": "http://127.0.0.1:5500/DankiCode/public/img/cursos/php_jedai-curso.jpg",
+        "descricao": "Este é um curso completo de PHP. Ensinamos do zero ao nível profissional tudo sobre a linguagem. Em mais de 200 aulas e diversos exercícios e projetos práticos, você vai aprender PHP e se tornar um expert!",
+        "estrelas": 4
+    },
+    {
+        "titulo": "Curso Desenvolvimento de Games Completo",
+        "img": "http://127.0.0.1:5500/DankiCode/public/img/cursos/games_curso.jpeg",
+        "descricao": "á sonhou em aprender a criar e desenvolver seus próprios jogos? Este curso vai lhe ensinar como criar qualquer jogo e tudo isso utilizando a linguagem de programação Java. O curso é um diferencial no mercado pois ensina a programar em Java junto com a criação de jogos completos! E o melhor de tudo, você vai aprender como fazer seu jogo rodar em qualquer plataforma. Com a nova atualização do curso você irá aprender engines como: Unity, Unreal, Game Maker e Godot.",
+        "estrelas": 5
+    },
+    {
+        "titulo": "Curso de Inglês para Programadores",
+        "img": "http://127.0.0.1:5500/DankiCode/public/img/cursos/ingles_curso.png",
+        "descricao": "O curso perfeito para programadores que desejam dominar o inglês e serem mais produtivos durante o desenvolvimento.",
+        "estrelas": 4
+    },
+    {
+        "titulo": "Curso WordPress Completo",
+        "img": "http://127.0.0.1:5500/DankiCode/public/img/cursos/wordpress_curso.png",
+        "descricao": "Aprenda e domine absolutamente tudo sobre front-end e web design em apenas um curso! Tudo que você precisa para se tornar um(a) Desenvolvedor(a) Front-End. São mais de 600 aulas, 35 projetos práticos e 300 exercícios.",
+        "estrelas": 5
+    },
+    {
+        "titulo": "Curso de Lógica de Programação",
+        "img": "http://127.0.0.1:5500/DankiCode/public/img/cursos/logica_programacao_curso.png",
+        "descricao": "Aprenda e domine absolutamente tudo sobre front-end e web design em apenas um curso! Tudo que você precisa para se tornar um(a) Desenvolvedor(a) Front-End. São mais de 600 aulas, 35 projetos práticos e 300 exercícios.",
+        "estrelas": 5
+    },
+    {
+        "titulo": "Curso Produtividade para Programadores",
+        "img": "http://127.0.0.1:5500/DankiCode/public/img/cursos/produtividade_curso.png",
+        "descricao": "Aprenda e domine absolutamente tudo sobre front-end e web design em apenas um curso! Tudo que você precisa para se tornar um(a) Desenvolvedor(a) Front-End. São mais de 600 aulas, 35 projetos práticos e 300 exercícios.",
+        "estrelas": 5
+    }
+]
