@@ -28,5 +28,5 @@ export default function initView(){
     }
 
     menu.forEach(a => a.addEventListener('click', activeView))
-    menu[2].click()
+    menu[0].click()
 }
